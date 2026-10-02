@@ -8,6 +8,8 @@ git config --list -> Lista toda la configuración global existente
 
 git status-> visualizar el estado en el que está el directorio local y sus archivos
 
+#Cargando datos al staging 
+
 git add "name.ext" -> agregar un nuevo archivo al staging area
 git add . -> agregar todos los archivos al staging 
 
@@ -18,6 +20,39 @@ git rm --cached "name.ext" -> elimina un archivo del staging y lo devuelve al di
 
 git commit -m "Mensaje" -> hace el commit de los archivos en staging
 
-git log -> puedo visualizar toda la bitácora de configuración
+git log -> puedo visualizar toda la bitácora de configuración, q para salir del log
+
+#Ramas
+
+git branch -> me dice en que rama estoy
+git checkout -b rama_a_moverse -> comando para moverse a una rama existente o crearla
+git switch main -> sirve actualmente para el cambio de ramas
+git branch -D rama_a_eliminar -> Elimina una rama, es bueno eliminarlas cuando se cumple
+el objetivo de dicha rama.
+
+git merge rama2 -> hace que la rama actual absorva los cambios de rama2
+
+#Reset y revert
+
+git reset -> Puedo regresar a un commit anterior para ver los cambios en los archivos, 
+		se puede explorar el historial de los commits.
+
+git revert -> Por medio de un nuevo commit revierte los cambios a un punto anterior.
+
+en los comandos anteriores se pone el hash o código de commit para saber a donde ir.
+
+git reset --hard hash -> Vuelve a un commit anterior sin hacer uno nuevo
+
+se puede usar --soft, --mix y --hard -> el hard debe ser la última opción. El hard elimina 
+los archivos y los commits, el mix permite regresar a los commits y hard elimina todo.
+
+#Tag y checkout
+
+git tag -> Agrega una etiqueta a un commit para identificarlo fácilmente en el futuro.
+git checkout -> ya utilizado para navegar entre ramas, pero también  para evaluar cambios
+de una rama antes de hacer un merge
+
+
+
 
 
