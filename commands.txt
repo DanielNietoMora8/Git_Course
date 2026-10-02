@@ -16,3 +16,8 @@ el commit pasa los archivos del staging al repositorio de git
 
 git rm --cached "name.ext" -> elimina un archivo del staging y lo devuelve al directorio
 
+git commit -m "Mensaje" -> hace el commit de los archivos en staging
+
+git log -> puedo visualizar toda la bitácora de configuración
+
+
