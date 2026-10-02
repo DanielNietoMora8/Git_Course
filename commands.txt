@@ -1,0 +1,6 @@
+git init ->inicializar el repo en la carpeta
+git config --global user.name "nombre de usuario" -> establecer nombre de usuario
+git config --global user.email "email@mail.com" -> establecer email
+Estos dos atributos de git config son los que aparecerán visibles cuando hagamos contribuciones
+en los proyectos. Al ser --global, se aplica para todos los proyectos o repos en general.
+
