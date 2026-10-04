@@ -1,2 +1,4 @@
 Linea original 
 Este es otro cambio pero hecho en main
+Cambios realizados en la rama dev
+Acción realizada en la solución del conflicto después del merge
