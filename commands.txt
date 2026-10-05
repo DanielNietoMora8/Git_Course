@@ -48,7 +48,12 @@ los archivos y los commits, el mix permite regresar a los commits y hard elimina
 
 #Tag y checkout
 
-git tag -> Agrega una etiqueta a un commit para identificarlo fácilmente en el futuro.
+git tag -a tag_asignado "mensae de tag"-> Agrega una etiqueta a un commit para identificarlo fácilmente en el futuro.
+git tag -> me lista los tags que tengo
+git tag -d tag_asignado -> Elimina únicamente el tag sin alterar los commits o archivos. 
+Solamente elimina el tag.
+git show tag -> muestra detalles del commit con el tag
+
 git checkout -> ya utilizado para navegar entre ramas, pero también  para evaluar cambios
 de una rama antes de hacer un merge
 
